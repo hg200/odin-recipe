@@ -12,6 +12,7 @@ h1 {
     text-align: center;
     background-color: hsl(50, 57%, 70%);
     padding: 10px;
+    border: 10px groove red;
 }
 
 h3 {
