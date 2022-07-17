@@ -3,6 +3,7 @@ h1 {
     text-align: center;
     background-color: hsl(50, 57%, 70%);
     padding: 10px;
+    border: 10px groove red;
 }
 
 h3 {
@@ -10,6 +11,7 @@ h3 {
     background-color: beige;
     padding: 5px;
     text-align: center;
+    border: 3px dashed red;
 }
 
 img {
@@ -17,4 +19,8 @@ img {
     height: 200px;
     position: relative;
     left: 130px;
+}
+
+h3:hover {
+    background-color: rgb(129, 218, 217);
 }
