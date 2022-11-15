@@ -42,3 +42,7 @@ img {
 h3:hover {
     background-color: var(--hover-clr);
 }
+
+a {
+    text-decoration: none;
+}
