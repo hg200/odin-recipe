@@ -34,11 +34,12 @@ h3 {
 }
 
 img {
+    margin-left: 20px;
     width: 300px;
     height: 200px;
     border-radius: 1em;
     display: flex;
-    align-self: center;
+    align-self: flex-start;
 }
 
 h3:hover {
@@ -47,4 +48,9 @@ h3:hover {
 
 a {
     text-decoration: none;
+}
+
+.burger>img {
+    margin-right: 20px;
+    align-self: end;
 }
