@@ -1,3 +1,10 @@
+:root {
+    --main-clr: red;
+    --accent-clr: beige;
+    --secondary-clr: hsl(50, 57%, 70%);
+    --hover-clr: rgb(129, 218, 217);
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -9,19 +16,19 @@ body {
 }
 
 h1 {
-    color: red;
+    color: var(--main-clr);
     text-align: center;
-    background-color: hsl(50, 57%, 70%);
+    background-color: var(--secondary-clr);
     padding: 10px;
-    border: 10px groove red;
+    border: 10px groove var(--main-clr);
 }
 
 h3 {
-    color: red;
-    background-color: beige;
+    color: var(--main-clr);
+    background-color: var(--accent-clr);
     padding: 5px;
     text-align: center;
-    border: 3px dashed red;
+    border: 3px dashed var(--main-clr);
 }
 
 img {
@@ -33,5 +40,5 @@ img {
 }
 
 h3:hover {
-    background-color: rgb(129, 218, 217);
+    background-color: var(--hover-clr);
 }
