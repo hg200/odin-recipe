@@ -21,6 +21,7 @@ h1 {
     background-color: var(--secondary-clr);
     padding: 10px;
     border: 10px groove var(--main-clr);
+    border-radius: 1em;
 }
 
 h3 {
@@ -29,12 +30,13 @@ h3 {
     padding: 5px;
     text-align: center;
     border: 3px dashed var(--main-clr);
+    border-radius: 1em;
 }
 
 img {
     width: 300px;
     height: 200px;
-    border-radius: 20px;
+    border-radius: 1em;
     display: flex;
     align-self: center;
 }
